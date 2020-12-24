@@ -1,0 +1,48 @@
+/*
+  Color variables
+*/
+
+// Primary
+
+$bright-blue: hsl(220, 98%, 61%);
+
+// - Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
+$linear-gradient-cyan: hsl(192, 100%, 67%);
+$linear-gradient-purple: hsl(280, 87%, 65%);
+
+// Neutral
+
+// Light Theme
+
+$very-light-gray: hsl(0, 0%, 98%);
+$very-light-grayish-blue: hsl(236, 33%, 92%);
+$light-grayish-blue: hsl(233, 11%, 84%);
+$dark-grayish-blue: hsl(236, 9%, 61%);
+$very-dark-grayish-blue: hsl(235, 19%, 35%);
+
+// Dark Theme
+
+$very-dark-blue-dm: hsl(235, 21%, 11%);
+$very-dark-desaturated-blue-dm: hsl(235, 24%, 19%);
+$light-grayish-blue-dm: hsl(234, 39%, 85%);
+$light-grayish-blue-hover-dm: hsl(236, 33%, 92%);
+$dark-grayish-blue-dm: hsl(234, 11%, 52%);
+$very-dark-grayish-blue-dm1: hsl(233, 14%, 35%);
+$very-dark-grayish-blue-dm2: hsl(237, 14%, 26%);
+
+// Font sizes
+$heading-font-size: 36px;
+$dafault-font-size: 18px;
+$links-font-size: 16px;
+
+// Font weights
+$normal-font-weight: 400;
+$bold-font-weight: 700;
+
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+@import "./function";
+@import "./mixins";
+@import "./base";
+@import "./layout";
+@import "./components";

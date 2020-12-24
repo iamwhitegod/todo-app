@@ -1,0 +1,21 @@
+{
+  "name": "frontend-mentor.io",
+  "version": "1.0.0",
+  "description": "Projects from frontend-mentor.io",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "gulp watch"
+  },
+  "keywords": [
+    "frontend-mentor",
+    "whitegod",
+    "kingsley"
+  ],
+  "author": "whitegod",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

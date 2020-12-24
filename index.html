@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Todo app</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body class="">
+    <div class="wrapper">
+      <figure class="wrapper__img">
+        <!-- <img src="images/bg-desktop-light.jpg" alt="bg desktop light image" /> -->
+      </figure>
+
+      <div class="container">
+        <div class="container__header">
+          <h1>Todo</h1>
+
+          <div class="theme theme-light">
+            <img src="images/icon-moon.svg" alt="Moon icon" />
+            <!-- <img src="images/icon-sun.svg" alt="Sun icon" /> -->
+          </div>
+        </div>
+
+        <form class="container__form" id="form">
+          <label>
+            <input type="radio" name="light" disabled />
+            <span class="custom-checkbox"></span>
+          </label>
+
+          <input
+            type="text"
+            name="todo"
+            id="todo"
+            placeholder="Create a new todo..."
+            autocomplete="off"
+          />
+        </form>
+
+        <div class="container__todos">
+          <ul class="todo-list">
+            <!-- <li class="todo" draggable="true">
+              <label>
+                <input type="checkbox" name="light" />
+                <span class="custom-checkbox">
+                  <img src="images/icon-check.svg" alt="" />
+                </span>
+              </label>
+
+              <span class="todo-text">Completed online JavaScript Course</span>
+            </li>
+
+            <li class="todo" draggable="true">
+              <label>
+                <input type="checkbox" name="light" />
+                <span class="custom-checkbox">
+                  <img src="images/icon-check.svg" alt="" />
+                </span>
+              </label>
+
+              <span class="todo-text">Jog around park 3x</span>
+            </li>
+
+            <li class="todo" draggable="true">
+              <label>
+                <input type="checkbox" name="light" />
+                <span class="custom-checkbox">
+                  <img src="images/icon-check.svg" alt="" />
+                </span>
+              </label>
+
+              <span class="todo-text">10 minutes meditation</span>
+            </li>
+
+            <li class="todo" draggable="true">
+              <label>
+                <input type="checkbox" name="light" />
+                <span class="custom-checkbox">
+                  <img src="images/icon-check.svg" alt="" />
+                </span>
+              </label>
+
+              <span class="todo-text">Read for 1 hours</span>
+            </li>
+
+            <li class="todo" draggable="true">
+              <label>
+                <input type="checkbox" name="light" />
+                <span class="custom-checkbox">
+                  <img src="images/icon-check.svg" alt="" />
+                </span>
+              </label>
+
+              <span class="todo-text">Pick up groceries</span>
+            </li>
+
+            <li class="todo" draggable="true">
+              <label>
+                <input type="checkbox" name="light" />
+                <span class="custom-checkbox">
+                  <img src="images/icon-check.svg" alt="" />
+                </span>
+              </label>
+
+              <span class="todo-text"
+                >Completed Todo app on Frontend Mentor</span
+              >
+            </li> -->
+          </ul>
+
+          <div class="filters">
+            <span class="count">5 items left</span>
+
+            <div class="links">
+              <a href="#" id="all">All</a>
+              <a href="#" id="active">Active</a>
+              <a href="#" id="completed">Completed</a>
+            </div>
+
+            <a href="#" class="clear-completed">Clear Completed</a>
+          </div>
+        </div>
+
+        <div class="links--2">
+          <a href="#" id="all">All</a>
+          <a href="#" id="active">Active</a>
+          <a href="#" id="completed">Completed</a>
+        </div>
+
+        <p>Drag and drop to reorder list</p>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.twitter.com/iamwhitegod" target="_blank"
+            >Whitegod Kingsley</a
+          >.
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
